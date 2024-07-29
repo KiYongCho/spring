@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="hello" class="simpledi.bean.Hello" scope="prototype">
+		<property name="name" value="Spring" />
+		<property name="printer" ref="stringPrinter" />
+	</bean>
+	
+	<bean id="stringPrinter" class="simpledi.service.StringPrinter" />
+	<bean id="consolePrinter" class="simpledi.service.ConsolePrinter" />
+
+</beans>
