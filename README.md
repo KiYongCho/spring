@@ -1,4 +1,4 @@
-java강의용 소스코드 레파지토리
+Spring강의용 소스코드 레파지토리
 
 <h3>See branches!</h3><br />
 branche                description<br />
